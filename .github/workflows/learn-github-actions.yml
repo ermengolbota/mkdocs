@@ -1,7 +1,7 @@
 name: learn-github-actions
 on: [push]
 jobs:
-  check-bats-version:
+  proves_directoris:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -11,8 +11,7 @@ jobs:
       - run: pip install mkdocs-material
       - run: pwd
       - run: ls -la
-      - run: apt install -f tree
-      - run: tree
       - run: cd ./Muntanyes/
+      - run: ls -la
       - run: mkdocs build
       - run: ls -la 
