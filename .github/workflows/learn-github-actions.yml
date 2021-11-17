@@ -9,6 +9,10 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs-material
+      - run: pwd
+      - run: ls -la
+      - run: apt install -f tree
+      - run: tree
       - run: cd ./Muntanyes/
       - run: mkdocs build
       - run: ls -la 
