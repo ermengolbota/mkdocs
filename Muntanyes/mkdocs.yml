@@ -1,0 +1,7 @@
+site_name: Muntanyes
+
+nav:
+        - Prepririneu: 
+                - Pedraforca: Pedraforca.md
+        - Pirineu::
+                - Gra de fajol: Gra.md
